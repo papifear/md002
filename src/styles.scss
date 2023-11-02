@@ -1,0 +1,394 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url('https://fonts.cdnfonts.com/css/tt-hoves-pro-trial');
+
+body {
+  background-color: #FFF;
+}
+
+header {
+  flex-shrink: 0;
+  background: url("/assets/images/bg.png");
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  width: 464px;
+  height: 96px;
+  flex-shrink: 0;
+  gap: 20px;
+  display: inline-flex;
+  align-items: center;
+  margin-top: 58px;
+  margin-bottom: 50px;
+}
+
+.logo-icon {
+  width: 78px;
+  height: 84px;
+  flex-shrink: 0;
+}
+
+.logo-header {
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 118.5%; /* 71.1px */
+}
+
+.logo-paragraph {
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 27px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 118.5%;
+  letter-spacing: 7.02px;
+}
+
+.lorem-ipsum {
+  width: 374px;
+  height: 64px;
+  flex-shrink: 0;
+  border-radius: 59px;
+  background: rgba(0, 0, 0, 0.50);
+  color: #FFF;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 17px;
+}
+
+.hero-header {
+  color: #FFF;
+  text-align: center;
+  text-shadow: 0px 0px 40px rgba(0, 0, 0, 0.50);
+  font-family: Poppins;
+  font-size: 144px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 134.5px; /* 93.403% */
+  margin-bottom: 100px;
+  width: 983px;
+}
+
+.hero-button {
+  width: 180px;
+  height: 70px;
+  flex-shrink: 0;
+  border-radius: 35px;
+  background: radial-gradient(50% 50% at 50% 50%, #FFF 0%, #F9F9F9 100%);
+  box-shadow: 0px 10px 50px 0px rgba(16, 51, 30, 0.50);
+  color: #48924F;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 116px;
+}
+
+.page-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.title {
+  color: var(--Gray-3, #828282);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  text-align: center;
+  padding-top: 70px;
+  position: relative;
+}
+
+.title-2 {
+  padding-bottom: 70px;
+}
+
+.title-3 {
+  padding-top: 50px;
+}
+
+.title-art {
+  position: relative;
+  top: -47px;
+}
+
+.title-art-2 {
+  position: relative;
+  top: -47px;
+  left: 230px;
+}
+
+.cards {
+  height: 504px;
+  width: 1200px;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.cards-item {
+  width: 385px;
+  height: 504px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  background: #FFF;
+  box-shadow: 0px 10px 30px 0px rgba(16, 51, 30, 0.10);
+}
+
+.card-art {
+  width: 385px;
+  height: 290px;
+  flex-shrink: 0;
+  border-radius: 30px 30px 0px 0px;
+  background: lightgray 50% / cover no-repeat;
+}
+
+.card-text {
+  margin: 30px 30px 30px 30px;
+}
+
+.card-title {
+  width: 325px;
+  color: #0D4D14;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 24px; /* 150% */
+  margin-bottom: 10px;
+}
+
+.card-paragraph {
+  width: 325px;
+  color: #0D4D14;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 142.857% */
+}
+
+.page-1-button {
+  width: 180px;
+  height: 70px;
+  flex-shrink: 0;
+  border-radius: 35px;
+  background: #FFF;
+  box-shadow: 0px 16px 30px 0px rgba(50, 175, 100, 0.15);
+  color: #6CB981;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.page-2-container {
+  background: url("assets/images/bg2.png");
+  box-shadow: 0px 4px 50px 0px rgba(0, 0, 0, 0.25) inset;
+  width: 100%;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.page-2-text {
+  width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-top: 154px;
+  margin-bottom: 50px;
+}
+
+.page-2-title {
+  width: 360px;
+  color: #FFF;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 133.333% */
+}
+
+.brk {
+  height: 50px;
+}
+
+.cards-2 {
+  width: 1200px;
+  height: 233px;
+  display: flex;
+  gap: 50px;
+  margin-bottom: 50px;
+}
+
+.cards-2-item {
+  width: 577px;
+  height: 233px;
+  flex-shrink: 0;
+  border-radius: 40px;
+  border: 1px solid #6CB981;
+  background: #FFF;
+  display: flex;
+  gap:14px;
+}
+
+.cards-2-img {
+  width: 80px;
+  height: 80px;
+  flex-shrink: 0;
+  border-radius: 80px;
+  background: lightgray 50% / cover no-repeat;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.cards-2-title {
+  color: #6CB981;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px; /* 122.222% */
+  margin-top: 30px;
+}
+
+.cards-2-paragraph {
+  width: 423px;
+  color: #0D4C14;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px; /* 157.143% */
+  margin-top: 13px;
+  margin-bottom: 10px;
+}
+
+.stars {
+  width: 114px;
+  height: 18px;
+  flex-shrink: 0;
+}
+
+.star {
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+}
+
+footer {
+  background: #FCFCFC;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.footer-container {
+  width: 788px;
+  height: 266px;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.footer-rectangles {
+  width: 374px;
+  height: 266px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.green-rectangle {
+  width: 374px;
+  height: 56px;
+  flex-shrink: 0;
+  border-radius: 61px;
+  background: #9FDEA9;
+}
+
+.white-rectangle {
+  width: 168px;
+  height: 56px;
+  flex-shrink: 0;
+  border-radius: 61px;
+  border: 3px solid #4DB96B;
+}
+
+.footer-contacts {
+  width: 314px;
+  height: 132px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.footer-contact {
+  height: 24px;
+  flex-shrink: 0;
+  display: flex;
+  align-items:center;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.footer-icon {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
+
+.footer-paragraph {
+  color: var(--Gray-1, #333);
+  font-family: TT Hoves Pro Trial;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.footer-end {
+  height: 145px;
+  width: 100%;
+  background-color: #324B29;
+}
